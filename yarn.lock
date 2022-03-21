@@ -1194,13 +1194,13 @@
     "@sentry/utils" "6.2.1"
     tslib "^1.9.3"
 
-"@sentry/integrations@6.2.1":
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-6.2.1.tgz#caa9b49de29523698668d45827633be86b2268ff"
-  integrity sha512-UBvuil/b9M5HGH6aBDzTiIVRsmpC/wqwDKy28IO05XLdalmKgJ9C1EQhoyN6xw+1lINpXXFtfq4NhfgZgWbc7Q==
+"@sentry/integrations@6.19.0":
+  version "6.19.0"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-6.19.0.tgz#e48a0a324a02bfa55388629c2d144521caba3cee"
+  integrity sha512-JAyRdGLKEXbca1yNwTiLLfys3okM9lSlAFPJf1T7FdvoaKCed9pdj/x46VF1ANbeQIjS2NVJRveS6+3+x5k+4Q==
   dependencies:
-    "@sentry/types" "6.2.1"
-    "@sentry/utils" "6.2.1"
+    "@sentry/types" "6.19.0"
+    "@sentry/utils" "6.19.0"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -1236,6 +1236,11 @@
     "@sentry/utils" "6.2.1"
     tslib "^1.9.3"
 
+"@sentry/types@6.19.0":
+  version "6.19.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.19.0.tgz#0c81da174005f8d1bc4aa141e9190686ba22ec6a"
+  integrity sha512-jxxinvue2PzAeEewDwYJlk7tqp1SEnkaQISBSZZsRUvdk1aRWTDR5MgGejzlnaBSihwKVvFhcukd2PKm8EY9AA==
+
 "@sentry/types@6.2.1":
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.2.1.tgz#28c946230b2023f72307b65606d32052ad9e5353"
@@ -1248,6 +1253,14 @@
   dependencies:
     tslint-config-prettier "^1.18.0"
     tslint-consistent-codestyle "^1.15.1"
+
+"@sentry/utils@6.19.0":
+  version "6.19.0"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.19.0.tgz#8b61c77edd3b32c9a7d8a4c82e4ad7537ea6754c"
+  integrity sha512-Q0RT9nuMe/v9VSGs4PMIBJVLZCoUpOcVPsCtKnZNsTDzjs6+4xqDPA1dj3fXDM0A9UiJiiHeXCl66ayzbbAfNA==
+  dependencies:
+    "@sentry/types" "6.19.0"
+    tslib "^1.9.3"
 
 "@sentry/utils@6.2.1":
   version "6.2.1"
